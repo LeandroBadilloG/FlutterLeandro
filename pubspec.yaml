@@ -68,6 +68,7 @@ flutter:
   assets:
     - assets/images/android_robot.png
     - assets/images/nasa_logo.png
+    - assets/images/wine_87573.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -86,11 +87,16 @@ flutter:
          - asset: assets/fonts/Rubik-Italic.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
+
     - family: Pacifico
       fonts:
          - asset: assets/fonts/Pacifico-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+
+    - family: EduSABeginner
+      fonts:
+        - asset: assets/fonts/EduSABeginner-Bold.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
